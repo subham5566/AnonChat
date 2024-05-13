@@ -1,9 +1,9 @@
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from enum import Enum
 
-TOKEN = ''  # token from BotFather
-ADMINS = ['first_example', 'second_example']  # telegram identifiers (id) of admins (not necessary).
-DB = 'db.db'  # database file name
+TOKEN = 'BOT_TOKEN_OP'  # token from BotFather
+ADMINS = ['ADMIN_ID_OP']  # telegram identifiers (id) of admins (not necessary).
+DB = 'BD_URL'  # database file name
 
 # These variables are needed only if you use Payok
 RETURN_URL = 'https://t.me/anonchik_chat_bot' # Your bot link
